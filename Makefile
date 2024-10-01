@@ -1,8 +1,11 @@
-run: dependencies
-	go run cmd/main.go
+format:
+	@gofmt -s -w .
 
-build: dependencies
-	go build cmd/main.go
+run: dependencies format
+	@go run cmd/server/main.go
+
+build: dependencies format
+	@go build cmd//server/main.go
 
 dependencies:
-	go mod tidy
+	@go mod tidy
