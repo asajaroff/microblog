@@ -67,6 +67,7 @@ func main() {
 			log.Printf("INFO: User logged in: %s\n", email)
 			return c.String(http.StatusOK, "Welcome back!")
 		}
+		log.Printf("INFO: Failed login for %s", email)
 		return c.String(http.StatusUnauthorized, "Cannot validate credentials")
 	})
 
