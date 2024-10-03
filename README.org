@@ -1,0 +1,21 @@
+#+TITLE:     Microblog
+#+SUBTITLE:  The backend for a simple blog service
+#+AUTHOR:    Alejandro Sajaroff
+#+EMAIL:     (concat "alejandro" at-sign "sajaroff.com")
+#+DESCRIPTION: Org mode syntax example
+#+KEYWORDS:  blog, microservices, go, golang, backend
+#+LANGUAGE:  en
+#+OPTIONS:   H:4 num:nil toc:2 p:t
+
+#+HTML_LINK_HOME: http://github.com/asajaroff/microblog
+
+
+* Summary
+
+This service is a backend for a simple blog service that supports:
+- Authentication
+- Authorization
+- Dynamic rendering  
+
+* Architecture
+
